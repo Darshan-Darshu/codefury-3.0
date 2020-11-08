@@ -1,0 +1,96 @@
+.jobInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 300px;
+	width: 700px;
+	max-width: 900px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.jobInfo_info > h1 {
+	font-weight: 500;
+	color: #0d3766;
+	text-align: center;
+	font-size: 28px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.jobInfo_color {
+	color: #f15208;
+	font-weight: 700;
+	font-size: 30px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jobInfo_icons {
+	display: flex;
+	margin-top: 30px;
+	align-items: center;
+	text-align: center;
+}
+
+.jobInfo_option {
+	padding: 0 40px;
+	padding-top: 40px;
+}
+
+.jobInfo_option > a {
+	text-decoration: none;
+	color: #111;
+}
+
+.jobInfo_icon {
+	font-size: 80px !important;
+	font-weight: 100 !important;
+}
+
+.jobInfo_option > a > p {
+	font-size: medium;
+	font-weight: 400;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	padding-top: 10px;
+	color: #7c7c7c;
+}
+
+.jobInfo_buttons {
+	display: flex;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.jobInfo_buttons > p {
+	margin: 0 20px;
+}
+
+.jobInfo_btnOrange {
+	background-color: #f15208 !important;
+	color: white !important;
+	font-weight: 600 !important;
+	padding: 8px 40px !important;
+	text-transform: inherit !important;
+	outline-width: 0 !important;
+}
+
+.jobInfo_btn {
+	font-weight: 600 !important;
+	text-transform: inherit !important;
+	padding: 8px 40px !important;
+	outline-width: 0 !important;
+	color: #f15208 !important;
+	border-color: #f36a2a !important;
+}
+
+.jobInfo_btn:hover {
+	background-color: #f15208 !important;
+	color: white !important;
+	border-color: #ad3e0b !important;
+}
+
+.jobInfo_youtube {
+	min-width: 100px;
+	width: 900px;
+	max-width: 1000px;
+}

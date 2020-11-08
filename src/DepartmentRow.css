@@ -1,0 +1,26 @@
+.departmentRow {
+	margin-left: 20px;
+}
+
+.departmentRow_posters {
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding: 20px;
+}
+
+.departmentRow_posters::-webkit-scrollbar {
+	display: none;
+}
+
+@media only screen and (min-width: 520px) and (max-width: 720px) {
+	.departmentRow_posters {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (min-width: 364px) and (max-width: 520px) {
+	.departmentRow_posters {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,51 @@
+.searchForm_control {
+	display: flex;
+	align-items: center;
+	margin: 10px 40px;
+}
+
+.searchForm_container {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.searchForm_container > h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.searchForm_container > input {
+	/* width: 98%; */
+	outline-width: 0;
+}
+
+.searchForm_check {
+	display: flex !important;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.searchForm_check > h3 {
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+.search_check {
+	margin-top: 25px;
+}
+
+@media only screen and (min-width: 520px) and (max-width: 720px) {
+	.searchForm_control {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+@media only screen and (min-width: 364px) and (max-width: 520px) {
+	.searchForm_control {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

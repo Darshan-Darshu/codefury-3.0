@@ -1,0 +1,80 @@
+.job {
+	margin: 15px;
+	border: 0px solid black;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.5);
+	transition: transform 100ms ease-in;
+	padding: 20px;
+}
+
+.job_section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.job_info {
+	display: flex;
+	flex-direction: column;
+	min-width: 300px;
+	width: 800px;
+}
+
+.job_info > h2 {
+	font-size: 25px;
+	font-weight: 500;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	padding: 10px 0;
+	position: relative;
+}
+
+.job_titleCompany {
+	color: darkgray;
+}
+
+.job_bg {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.job_bgType {
+	background-color: gray;
+	margin-right: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 500;
+}
+
+.job_bgLocation {
+	background-color: gray;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 500;
+}
+
+.job_logo {
+	object-fit: fill;
+	min-width: 50px;
+	min-height: 50px;
+	/* width: 100%; */
+	height: 80px;
+}
+
+.job_btn {
+	background-color: #027ada !important;
+	color: white !important;
+	font-weight: 800 !important;
+	margin-top: 10px !important;
+	text-transform: inherit !important;
+	outline-width: 0;
+	border: none;
+}
+
+.job_description {
+	margin-top: 20px;
+}

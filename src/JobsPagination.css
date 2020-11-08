@@ -1,0 +1,33 @@
+.jobsPagination {
+	background-color: white;
+}
+
+.jobsPagination_container {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+.jobsPagination_main {
+	background-color: lightgray;
+	padding: 10px;
+	margin: 10px;
+}
+
+.jobsPagination_main > a {
+	text-decoration: none;
+	color: #111;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 720px) {
+	.jobsPagination_container {
+		max-width: 520px;
+		flex-wrap: wrap;
+	}
+}
+@media only screen and (min-width: 364px) and (max-width: 520px) {
+	.jobsPagination_container {
+		max-width: 520px;
+		flex-wrap: wrap;
+	}
+}
